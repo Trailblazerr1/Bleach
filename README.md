@@ -3,6 +3,8 @@
 
 Bleach is a python script that cleans up your desktop and manages your file system.
 
+![Gif](https://raw.githubusercontent.com/Trailblazerr1/Bleach/master/media/bleach.gif)
+
 ## Features!
 
   - **View top 10 memory hog files on your system.**   
