@@ -16,7 +16,7 @@ Bleach is a python script that cleans up your desktop and manages your file syst
     Further it displays a color bar-graph of all the images, videos, documents, songs and compressed files (Who said python scripts are boring and colorless?😉)
   - **Save space**   
     Clears all the temporary files from your system.
-    Further it shows you the 10 oldest files on your system and prompts you to delete them. (Delete em' if you are space-greedy!)
+    Further it shows you the 10 least recently used files on your system and prompts you to delete them. (Delete em' if you are space-greedy!)
   - **Use on both *Linux* and *Windows*.**   
 
 
