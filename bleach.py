@@ -216,11 +216,11 @@ selected = int(input())
 if selected==1:
     if oss==1:
         q=Path.home()
-        p=q/'Downloads'
+        p=q
         PrintFree("/")
     else:
         q=Path.home()
-        p=q/'Downloads'
+        p=q
     fList  = fListHere(p)
     fLen = len(fList)    
     makeGraph(fList)    
@@ -228,12 +228,8 @@ if selected==1:
 
 #Show top 10 memory hog files
 if selected==2:
-    if oss==1:
-        q=Path.home()
-        p=q/'Downloads'
-    else:
-        q=Path.home()
-        p=q/'Downloads'
+    q=Path.home()
+    p=q
     #p=Path('/home/anurag/Downloads')
     fList  = fListHere(p)
     fLen = len(fList)
@@ -242,14 +238,9 @@ if selected==2:
 
 #Declutter desktop
 if selected==3:
-    if oss==1:
-        q=Path.home()
-        p=q / 'Desktop'
-        r=q / 'Documents'
-    else:
-        q=Path.home()
-        p=q / 'Desktop'
-        r=q / 'Documents'
+    q=Path.home()
+    p=q / 'Desktop'
+    r=q / 'Documents'
     deClutter(p,r)
 
 #free up some space
@@ -261,16 +252,13 @@ if selected==4:
     gr=int(input())
     if gr==1:
         print("Showing the least recently used files")
-        if oss==1:
-            q=Path.home()
-            p=q/'Downloads'
-        else:
-            q=Path.home()
-            p=q/'Downloads'
+        q=Path.home()
+        p=q
         ##p=Path('/home/anurag/Downloads')
         fList  = fListHere(p)
         fLen = len(fList)
         OldestN(fList,fLen)
+
 
 
 
